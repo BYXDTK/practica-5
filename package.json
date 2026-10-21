@@ -1,0 +1,9 @@
+{
+  "name": "agente-ui-stitch",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"start": "node agente.js", "check": "node --check agente.js"},
+  "engines": {"node": ">=20"},
+  "dependencies": {"openai": "^6.0.0", "@modelcontextprotocol/sdk": "^1.0.0", "dotenv": "^17.0.0"}
+}
